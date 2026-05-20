@@ -7,7 +7,7 @@
 
  <img src="satellite-map.png" width="100%">
 
-_Maps from https://globalenergymonitor.org/projects/global-hydropower-tracker?popup=3644_
+_Maps from [Global Energy Monitor](https://globalenergymonitor.org/projects/global-hydropower-tracker?popup=3644)_
 
 ## Background
 
