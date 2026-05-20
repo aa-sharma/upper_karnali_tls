@@ -5,7 +5,7 @@
 
  <img src="hydro-map-nepal.png" width="100%">
  <figure align="center">
-  <img src="path/to/hydro-map-nepal.png" alt="Alt text">
+  <img src="hydro-map-nepal.png" alt="Alt text">
   <figcaption>https://globalenergymonitor.org/projects/global-hydropower-tracker?popup=3644</figcaption>
 </figure>
 
