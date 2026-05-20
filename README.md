@@ -4,7 +4,7 @@
 > Source: https://en.wikipedia.org/wiki/Upper_Karnali_Hydropower_Project
 
  <img src="hydro-map-nepal.png" width="100%">
-<small>[Maps source](https://globalenergymonitor.org/projects/global-hydropower-tracker?popup=3644)</small
+*Maps from https://globalenergymonitor.org/projects/global-hydropower-tracker?popup=3644*
 
  <img src="satellite-map.png" width="100%">
 
