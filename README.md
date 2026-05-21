@@ -3,14 +3,16 @@ Designing a hypothetical 100km, 400kV double-circuit cross-border transmission n
 
 ## Table of Contents
 * [Background](#Background)
-    * [The Upper Karnali Hydropower Site (900MW)](#The-Upper-Karnali-Hydropower-Site-(900MW))
+    * [The Upper Karnali Hydropower Site](#The-Upper-Karnali-Hydropower-Site)
+    * [Power Transmission and Off-take](#Power-Transmission-and-Off-take)
+
  * [](#section-2-title)
     * [Sub-section A](#sub-section-a)
 
 ## Background
 The far-western regions of Nepal (Sudurpaschim and Karnali Provinces) are widely regarded as the least developed in the country due to the challenging geography, harsh climates, leading to isolation and high rates of poverty. However, these regions have huge hydropower potential due to rivers like Karnali and Mahakali, which are relatively unharnessed. Building infrastructure, particularly transmission lines, is a critical part of harnessing and delivering electricity in the region, and generating interest and investments for such large-scale projects. If these projects and transmission networks are successfully established, there is hope for socio-economic benefits for people in the region including industrialization, digital inclusion, revenue from cross-border trade, and economic opportunities for locals.
 
-### The Upper Karnali Hydropower Site (900MW)
+### The Upper Karnali Hydropower Site
 > The Upper Karnali Storage Hydropower Project is a proposed run-of-the-river hydroelectric plant on the Karnali river in West Nepal. It will have an installed capacity of 900 MW, making it the largest hydropower plant in Nepal when achieved [...] most of the generated power is set to be exported to both Bangladesh (about 500 MW) and India (another 292 MW), via a 400 kV double circuit transmission line, with the only remaining 108 MW of total power dedicated to local consumption.
 
 > _Source: https://en.wikipedia.org/wiki/Upper_Karnali_Hydropower_Project_
