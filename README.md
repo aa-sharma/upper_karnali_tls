@@ -9,9 +9,9 @@ The far-western regions of Nepal (Sudurpaschim and Karnali Provinces) are widely
 
 > _Source: https://en.wikipedia.org/wiki/Upper_Karnali_Hydropower_Project_
 
- <img src="hydro-map-nepal.png" width="100%">
+ <img src="img/hydro-map-nepal.png" width="100%">
 
- <img src="satellite-map.png" width="100%">
+ <img src="img/satellite-map.png" width="100%">
 
 _Maps from [Global Energy Monitor](https://globalenergymonitor.org/projects/global-hydropower-tracker?popup=3644)_
 
