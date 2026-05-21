@@ -7,8 +7,8 @@ Designing a hypothetical 100km, 400kV double-circuit cross-border transmission n
     * [Power Transmission and Off-take](#Power-Transmission-and-Off-take)
 * [Purpose](#Purpose)
 * [Simulation and Analysis](#Simulation-and-Analysis)
-    * [Terrain Intake & Routing Strategy](#Terrain-Intake-and-Routing-Strategy)
-    * [Conductor Selection & Sag-Tension Modelling](#Conductor-Selection-and-Sag-Tension-Modelling)
+    * [Terrain Intake and Routing Strategy](#Terrain-Intake-and-Routing-Strategy)
+    * [Conductor Selection and Sag-Tension Modelling](#Conductor-Selection-and-Sag-Tension-Modelling)
     * [Automated Tower Spotting](#Automated-Tower-Spotting)
     * [Verification](#Verification)
 * [Conclusion](#Conclusion)
@@ -36,10 +36,10 @@ _Source: https://web.archive.org/web/20221023231005/https://www.nsenergybusiness
 ## Purpose
 The purpose of this study is to design a	100 km 400 kV double-circuit transmission line (up to the Nepal-India border) connecting the power generated at the Upper Karnali hydropower site to the Indian grid.
 
-## Simulation & Analysis
+## Simulation and Analysis
 The simulations will be performed using python (with the help of libraries like rasterio, numpy, matplotlib, shapely, and pyproj). The program will try to mimic the logic of industry tools like PLS-CADD.
 
-### Terrain Intake & Routing Strategy
+### Terrain Intake and Routing Strategy
 The Upper Karnali powerhouse sits in a deep, rugged canyon at approximately 28.53° N, 81.29° E, ground elevation of approx. 635.79 m. To reach the plains of India, the transmission line needs to drop out of the Himalayan foothills (Siwalik/Churia range) and head down toward Terai (plains) near the India border.
 
 As the first step, the digital elevation model (DEM) for Western Nepal from NASA's Global DEM dataset will be used to plot a 3D surface mesh of the 100km corridor. For the scope of this project, only the Nepal-side transmission line is considered (from Upper Karnali site to Dododhara subsation i.e. approx. 50km). Points of Intersection (PI) or angle points are selected to guide the route. 
@@ -57,7 +57,7 @@ Dataset Source: NASA JPL (2021). <i>NASADEM Merged DEM Global 1 arc second V001<
 
 
 
-### 2. Conductor Selection & Sag-Tension Modelling
+### 2. Conductor Selection and Sag-Tension Modelling
 ### 3. Automated Tower Spotting
 ### 4. Verification
 
