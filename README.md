@@ -28,7 +28,7 @@ The purpose of this study is to design a	100 km 400 kV double-circuit transmissi
 The simulations will be performed using python (with the help of libraries like rasterio, numpy, matplotlib, shapely, and pyproj). The program will try to mimic the logic of industry tools like PLS-CADD.
 
 ### 1. Terrain Intake & Routing Strategy
-The Upper Karnali powerhouse sits in a deep, rugged canyon at approximately 28.90° N, 81.44° E. To reach the plains of India, the transmission line needs to drop out of the Himalayan foothills (Siwalik/Churia range) and head down toward Terai (plains) near the India border.
+The Upper Karnali powerhouse sits in a deep, rugged canyon at approximately 28.53° N, 81.29° E. To reach the plains of India, the transmission line needs to drop out of the Himalayan foothills (Siwalik/Churia range) and head down toward Terai (plains) near the India border.
 
 As the first step, the digital elevation model (DEM) for Western Nepal from NASA's Global DEM dataset will be used to plot a 3D surface mesh of the 100km corridor. Then, Points of Intersection (PI) or angle points are selected to guide the route. 
 Below is a list 5 coordinates connecting Upper Karnali to the border (hand picked using Google Earth):
