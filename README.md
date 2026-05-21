@@ -1,5 +1,6 @@
 # Upper Karnali Hydropower - Transmission Lines Study
 Designing a hypothetical 50km, 400kV double-circuit transmission network for cross-border energy trade from the Upper Karnali Hydropower site in Western Nepal to the Indian border using Python-driven terrain and structural simulation.
+
  <img src="img/full-tls-cross-border.png" width="100%">
 
 
