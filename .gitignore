@@ -1,2 +1,4 @@
 .venv/
 .tif
+*.tif
+nepal-NASADEM/west-nepal-viz.be_color-relief.png
