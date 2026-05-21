@@ -3,7 +3,7 @@ Designing a hypothetical 100km, 400kV double-circuit cross-border transmission n
 
 ## Table of Contents
 * [Background](#Background)
-    * [The Upper Karnali Hydropower Site (900MW)](#the-upper-karnali-hydropower-site-(900MW))
+    * [The Upper Karnali Hydropower Site (900MW)](#The Upper Karnali Hydropower Site (900MW))
  * [](#section-2-title)
     * [Sub-section A](#sub-section-a)
 
