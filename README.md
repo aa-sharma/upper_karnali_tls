@@ -31,7 +31,7 @@ The simulations will be performed using python (with the help of libraries like 
 The Upper Karnali powerhouse sits in a deep, rugged canyon at approximately 28.90° N, 81.44° E. To reach the plains of India, the transmission line needs to drop out of the Himalayan foothills (Siwalik/Churia range) and head down toward Terai (plains) near the India border.
 
 As the first step, the digital elevation model (DEM) for Western Nepal from NASA's Global DEM dataset will be used to plot a 3D surface mesh of the 100km corridor. Then, Points of Intersection (PI) or angle points are selected to guide the route. 
-Below is a list 5 coordinates connecting Upper Karnali to the border:
+Below is a list 5 coordinates connecting Upper Karnali to the border (hand picked using Google Earth):
 1. x
 2. y
 3. z
