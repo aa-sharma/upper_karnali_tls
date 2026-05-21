@@ -64,10 +64,10 @@ This results in the following 2D longitudinal terrain profile:
 The project is specified to use 400 kV Double Circuit, Aluminum Conductor Steel Reinforced (ACSR) Quad Moose conductor transmission lines
 _Source: https://asian-power.com/news/india-nepal-partner-develop-high-capacity-cross-border-power-transmission_
 #### Conductor Parameters
-* Conductor Type: ACSR MooseAluminum
+* Conductor Type: Aluminum Conductor Steel Reinforced (ACSR) Moose
 * Area: 500mm<sup>2</sup>
 * Diameter: approx. 31.77mm/conductor
-* Configuration: 4 individual conductors grouped together into a Quad formation per phase
+* Configuration: 4 individual conductors grouped together into a quad formation per phase
 
 ### Automated Tower Spotting
 ### Verification
