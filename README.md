@@ -6,7 +6,7 @@ Designing a hypothetical 100km, 400kV double-circuit cross-border transmission n
     * [The Upper Karnali Hydropower Site](#The-Upper-Karnali-Hydropower-Site)
     * [Power Transmission and Off-take](#Power-Transmission-and-Off-take)
 * [Purpose](#Purpose)
-* [Simulation & Analysis](#Simulation-and-Analysis)
+* [Simulation and Analysis](#Simulation-and-Analysis)
     * [Terrain Intake & Routing Strategy](#Terrain-Intake-and-Routing-Strategy)
     * [Conductor Selection & Sag-Tension Modelling](#Conductor-Selection-and-Sag-Tension-Modelling)
     * [Automated Tower Spotting](#Automated-Tower-Spotting)
