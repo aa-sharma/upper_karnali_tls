@@ -57,9 +57,9 @@ Dataset Source: NASA JPL (2021). <i>NASADEM Merged DEM Global 1 arc second V001<
 
 
 
-### 2. Conductor Selection and Sag-Tension Modelling
-### 3. Automated Tower Spotting
-### 4. Verification
+### Conductor Selection and Sag-Tension Modelling
+### Automated Tower Spotting
+### Verification
 
 
 ## Conclusion
