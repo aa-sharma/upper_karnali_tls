@@ -31,14 +31,14 @@ The simulations will be performed using python (with the help of libraries like 
 The Upper Karnali powerhouse sits in a deep, rugged canyon at approximately 28.53° N, 81.29° E. To reach the plains of India, the transmission line needs to drop out of the Himalayan foothills (Siwalik/Churia range) and head down toward Terai (plains) near the India border.
 
 As the first step, the digital elevation model (DEM) for Western Nepal from NASA's Global DEM dataset will be used to plot a 3D surface mesh of the 100km corridor. Points of Intersection (PI) or angle points are selected to guide the route. 
-The following map shows the five points hand picked using Google Earth (PI0 - PI4, PI0 being the generation site at Upper Karnali, and PI4 being the substation at the Nepal-India border):
+The following map shows the five points hand picked using Google Earth (PI0 - PI4, PI0 being the generation site at Upper Karnali, and PI4 being Dododhara substation at the Nepal-India border):
 
  <img src="img/google-earth-tls-nepal.png" width="100%">
 
 
 
 
-The program foo.py is used to linearly interpolate between the PI coordinates to sample terrain elevations every 20 meters across the entire 100km span. In general, the routing strategy tries to navigate around mountains, avoid massive river wide-crossings where possible, and is directed south.
+The program foo.py is used to linearly interpolate between the PI coordinates to sample terrain elevations every 20 meters across the entire 50km span. For the scope of this project, only the Nepal-side transmission line is considered (from Upper Karnali site to Dododhara subsation). In general, the routing strategy tries to navigate around mountains, avoid massive river wide-crossings where possible, and is directed south.
 
 This results in the following 2D longitudinal terrain profile:
 
