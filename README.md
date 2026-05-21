@@ -7,7 +7,7 @@ Designing a hypothetical 100km, 400kV double-circuit cross-border transmission n
     * [Power Transmission and Off-take](#Power-Transmission-and-Off-take)
 * [Purpose](#Purpose)
 * [Simulation & Analysis](#Simulation-&-Analysis)
-    * [Terrain Intake & Routing Strategy](#Terrain-Intake-& Routing-Strategy)
+    * [Terrain Intake & Routing Strategy](#Terrain-Intake-&-Routing-Strategy)
     * [Conductor Selection & Sag-Tension Modelling](#Conductor-Selection-&-Sag-Tension-Modelling)
     * [Automated Tower Spotting](#Automated-Tower-Spotting)
     * [Verification](#Verification)
