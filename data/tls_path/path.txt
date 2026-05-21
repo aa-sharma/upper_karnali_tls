@@ -1,0 +1,23 @@
+PI0 - Upper Karnali Hydropower Site
+28°53'56.77"N 81°29'15.25"E
+Elevation: 635.79 m
+
+PI1
+28°49'53.46"N 81°22'22.48"E
+Elevation: 751.62 m
+
+PI2
+28°46'09.22"N 81°16'50.72"E
+Elevation : 599.91 m
+
+PI3
+28°43'23.31"N 81°12'17.41"E
+Elevation: 574.09 m
+
+PI4
+28°34'33.43"N 81°04'28.05"E
+Elevation : 172.08 m
+
+PI5
+28°28'20.46"N 81°01'27.21"E
+Elevation : 159.72 m
