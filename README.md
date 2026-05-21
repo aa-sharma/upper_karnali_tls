@@ -51,7 +51,7 @@ The following map shows the five points hand picked using Google Earth (PI0 - PI
  <img src="img/google-earth-tls-nepal.png" width="100%">
 
 
-The program foo.py is used to linearly interpolate between the PI coordinates to sample terrain elevations every 20 meters across the 50km span. In general, the routing strategy tries to navigate around mountains, avoid massive river wide-crossings where possible, and is directed south.
+The program foo.py is used to linearly interpolate between the PI coordinates to sample terrain elevations every 20 meters across the 50km span. In general, the routing strategy tries to navigate around mountains, avoid massive river wide-crossings where possible, is directed south, and avoids environmentally protected areas (Bardiya National Park, Banke National Park)
 
 This results in the following 2D longitudinal terrain profile:
 
