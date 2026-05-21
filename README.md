@@ -65,9 +65,9 @@ The project is specified to use 400 kV Double Circuit, Aluminum Conductor Steel 
 _Source: https://asian-power.com/news/india-nepal-partner-develop-high-capacity-cross-border-power-transmission_
 #### Conductor Parameters
 * Conductor Type: ACSR MooseAluminum
-* Area: \(500 \text{ mm}^2\)
-* Diameter: \(\approx 31.77 \text{ mm}\) per conductor
-* Bundle: 4 individual conductors grouped together into a "Quad" formation per phase
+* Area: 500mm<sup>2</sup>
+* Diameter: approx, 31.77mm/conductor
+* Bundle: 4 individual conductors grouped together into a Quad formation per phase
 
 ### Automated Tower Spotting
 ### Verification
