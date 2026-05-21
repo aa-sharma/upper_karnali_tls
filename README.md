@@ -24,7 +24,13 @@ _Source: https://web.archive.org/web/20221023231005/https://www.nsenergybusiness
 The purpose of this study is to design a	100 km 400 kV double-circuit transmission line (up to the Nepal-India border) connecting the power generated at the Upper Karnali hydropower site to the Indian grid.
 
 ## Simulation & Analysis
+The simulations will be performed using python (with the help of libraries like rasterio, numpy, matplotlib, shapely, and pyproj). The program will try to mimic the logic of industry tools like PLS-CADD.
+
 ### 1. Terrain Intake & Routing Strategy
+The Upper Karnali powerhouse sits in a deep, rugged canyon at approximately 28.90° N, 81.44° E. To reach the plains of India, the transmission line must drop out of the Himalayan foothills (Siwalik/Churia range) and head down toward Terai (plains) near the India border.
+
+As the first step, the digital elevation model (DEM) for Eastern Nepal from NASADEM Merged DEM Global dataset will be used to plot a 3D surface mesh of the 100km corridor
+
 ### 2. Conductor Selection & Sag-Tension Modelling
 ### 3. Automated Tower Spotting
 ### 4. Verification
