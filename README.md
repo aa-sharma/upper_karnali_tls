@@ -32,11 +32,16 @@ The Upper Karnali powerhouse sits in a deep, rugged canyon at approximately 28.5
 
 As the first step, the digital elevation model (DEM) for Western Nepal from NASA's Global DEM dataset will be used to plot a 3D surface mesh of the 100km corridor. Then, Points of Intersection (PI) or angle points are selected to guide the route. 
 Below is a list 5 coordinates connecting Upper Karnali to the border (hand picked using Google Earth):
-1. x
-2. y
-3. z
-4. a
-5. b
+
+ <img src="img/google-earth-tls-path.png" width="100%">
+
+
+1. PI1: 28°49'53.46"N 81°22'22.48"E
+2. PI2: 28°46'09.22"N 81°16'50.72"E
+3. PI3: 28°43'23.31"N 81°12'17.41"E
+4. PI4: 28°34'33.43"N 81°04'28.05"E
+5. PI5: 28°28'20.46"N 81°01'27.21"E
+
 
 The program foo.py is used to linearly interpolate between the PI coordinates to sample terrain elevations every 20 meters across the entire 100km span. In general, the routing strategy tries to navigate around mountains, avoid massive river wide-crossings where possible, and is directed south.
 
