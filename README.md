@@ -53,7 +53,7 @@ The program foo.py is used to linearly interpolate between the PI coordinates to
 This results in the following 2D longitudinal terrain profile:
 
 
-Dataset Source: NASA JPL (2021). <i>NASADEM Merged DEM Global 1 arc second V001</i>.  Distributed by OpenTopography. https://doi.org/10.5069/G93T9FD9. Accessed 2026-05-19
+> Dataset Source: NASA JPL (2021). <i>NASADEM Merged DEM Global 1 arc second V001</i>.  Distributed by OpenTopography. https://doi.org/10.5069/G93T9FD9. Accessed 2026-05-19
 
 
 
