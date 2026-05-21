@@ -30,7 +30,7 @@ The simulations will be performed using python (with the help of libraries like 
 ### 1. Terrain Intake & Routing Strategy
 The Upper Karnali powerhouse sits in a deep, rugged canyon at approximately 28.90° N, 81.44° E. To reach the plains of India, the transmission line needs to drop out of the Himalayan foothills (Siwalik/Churia range) and head down toward Terai (plains) near the India border.
 
-As the first step, the digital elevation model (DEM) for Eastern Nepal from NASADEM Merged DEM Global dataset will be used to plot a 3D surface mesh of the 100km corridor
+As the first step, the digital elevation model (DEM) for Eastern Nepal from NASA's Global DEM dataset will be used to plot a 3D surface mesh of the 100km corridor
 
 Dataset Source: NASA JPL (2021). <i>NASADEM Merged DEM Global 1 arc second V001</i>.  Distributed by OpenTopography. https://doi.org/10.5069/G93T9FD9. Accessed 2026-05-19
 
