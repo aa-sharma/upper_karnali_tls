@@ -66,7 +66,7 @@ _Source: https://asian-power.com/news/india-nepal-partner-develop-high-capacity-
 #### Conductor Parameters
 * Conductor Type: ACSR MooseAluminum
 * Area: 500mm<sup>2</sup>
-* Diameter: approx, 31.77mm/conductor
+* Diameter: approx. 31.77mm/conductor
 * Bundle: 4 individual conductors grouped together into a Quad formation per phase
 
 ### Automated Tower Spotting
