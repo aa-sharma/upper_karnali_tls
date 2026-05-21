@@ -1,4 +1,5 @@
 # Upper Karnali Hydropower - Transmission Lines Study
+Designing a hypothetical 100km, 400kV double-circuit cross-border transmission network from the Upper Karnali Hydropower in Western Nepal to the Indian border using Python-driven terrain and structural simulation.
 
 ## Background
 The far-western regions of Nepal (Sudurpaschim and Karnali Provinces) are widely regarded as the least developed in the country due to the challenging geography, harsh climates, leading to isolation and high rates of poverty. However, these regions have huge hydropower potential due to rivers like Karnali and Mahakali, which are relatively unharnessed. Building infrastructure, particularly transmission lines, is a critical part of harnessing and delivering electricity in the region, and generating interest and investments for such large-scale projects. If these projects and transmission networks are successfully established, there is hope for socio-economic benefits for people in the region including industrialization, digital inclusion, revenue from cross-border trade, and economic opportunities for locals.
