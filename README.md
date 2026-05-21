@@ -38,7 +38,7 @@ Below is a list 5 coordinates connecting Upper Karnali to the border:
 4. a
 5. b
 
-The program foo.py is used to linearly interpolate between the PI coordinates to sample terrain elevations every 20 meters across the entire 100km span.
+The program foo.py is used to linearly interpolate between the PI coordinates to sample terrain elevations every 20 meters across the entire 100km span. In general, the routing strategy tries to navigate around mountains, avoid massive river wide-crossings where possible, and is directed south.
 
 This results in the following 2D longitudinal terrain profile:
 
