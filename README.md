@@ -23,12 +23,11 @@ _Source: https://web.archive.org/web/20221023231005/https://www.nsenergybusiness
 ## Purpose
 The purpose of this study is to design a	100 km 400 kV double-circuit transmission line (up to the Nepal-India border) connecting the power generated at the Upper Karnali hydropower site to the Indian grid.
 
-## Procedure
-### 1. Terrain Intage & Routing Strategy
+## Simulation & Analysis
+### 1. Terrain Intake & Routing Strategy
 ### 2. Conductor Selection & Sag-Tension Modelling
 ### 3. Automated Tower Spotting
 ### 4. Verification
 
-## Simulation & Analysis
 
 ## Conclusion
