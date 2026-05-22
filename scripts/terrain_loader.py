@@ -22,6 +22,24 @@ PI_COORDS = [
     (81.189072, 28.801362)          # PI4: Dododhara 400kV subsation
 ]
 
+PI_COORDS2 = [
+    (81.487570, 28.899105),         # PI0: Upper Karnali site
+    (81.419942, 28.865262),
+    (81.268717, 28.861498),
+    (81.132054, 28.758910),
+    (81.189072, 28.801362)          # PI4: Dododhara 400kV subsation
+]
+
+PI_COORDS3 = [
+    (81.487570, 28.899105),         # PI0: Upper Karnali site
+    (81.384466, 28.857143),
+    (81.184986, 28.895395),
+    (81.122741, 28.817418),
+    (81.189072, 28.801362)          # PI4: Dododhara 400kV subsation
+]
+
+
+
 class LoadTerrain:
     def __init__(self, pi_coords=PI_COORDS):
         self.pi_coords = pi_coords
