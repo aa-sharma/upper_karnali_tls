@@ -49,7 +49,7 @@ As the first step, the digital elevation model (DEM) for Western Nepal from NASA
 The following map shows the five points hand picked using Google Earth (PI0 - PI4, PI0 being the generation site at Upper Karnali, and PI4 being Dododhara substation at the Nepal-India border). In general, the routing strategy tries to navigate around mountains, placing PIs strategically on higher, solid ground avoiding flood plains, avoiding slopes over 20 degrees at angle points, avoid massive river wide-crossings where possible, is directed south, and avoids environmentally protected areas (Bardiya National Park, Banke National Park).
 _Additional guidlines on transmission line route selection: https://www.wsp.com/en-ca/insights/four-key-steps-for-transmission-line-route-selection_
 
- <img src="img/google-earth-tls-nepal.png" width="100%">
+ <img src="img/pi-points-set1.png" width="100%">
 
 
 The program scripts/terrain_loader.py is used to linearly interpolate between the PI coordinates to sample terrain elevations every 20 meters across the 50km span. 
