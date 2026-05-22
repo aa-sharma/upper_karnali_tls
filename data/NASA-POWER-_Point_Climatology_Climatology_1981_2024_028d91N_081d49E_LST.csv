@@ -1,0 +1,19 @@
+-BEGIN HEADER-
+NASA/POWER Source Native Resolution Climatology in LST
+44-year Meteorological and Solar Monthly & Annual Climatologies (January 1981 - December 2024) 
+Location: Latitude  28.9084   Longitude 81.4857 
+Elevation from MERRA-2: Average for 0.5 x 0.625 degree lat/lon region = 1224.66 meters
+The value for missing source data that cannot be computed or is outside of the sources availability range: -999 
+Parameter(s): 
+T2M_MAX       MERRA-2 Temperature at 2 Meters Maximum (C) 
+T2M_MIN       MERRA-2 Temperature at 2 Meters Minimum (C) 
+WS10M_MAX     MERRA-2 Wind Speed at 10 Meters Maximum (m/s) 
+WS10M_MIN     MERRA-2 Wind Speed at 10 Meters Minimum (m/s) 
+Message(s): 
+The requested parameters are computed for a custom climatological period (January 1981 - December 2024) 
+-END HEADER-
+PARAMETER,JAN,FEB,MAR,APR,MAY,JUN,JUL,AUG,SEP,OCT,NOV,DEC,ANN
+T2M_MAX,28.5,29.32,34.25,37.45,39.48,40.27,39.01,34.71,31.94,30.78,27.53,26.11,40.27
+T2M_MIN,-3.87,-2.88,-0.08,6.89,10.56,15.08,17.63,17.9,12.88,8.33,4.37,-2.73,-3.87
+WS10M_MAX,6.66,8.71,8.63,8.63,8.02,7.24,7.39,7.32,8.27,6.19,5.27,6.27,8.71
+WS10M_MIN,0.01,0.01,0.03,0.02,0.0,0.01,0.0,0.02,0.01,0.02,0.01,0.01,0.0
