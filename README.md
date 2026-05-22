@@ -55,6 +55,7 @@ _Additional guidlines on transmission line route selection: https://www.wsp.com/
 The program [scripts/terrain_loader.py](https://github.com/aa-sharma/upper_karnali_tls/blob/main/scripts/terrain_loader.py) is used to linearly interpolate between the PI coordinates to sample terrain elevations every 20 meters across the 50km span. Three iterations of this simulation was conducted to generate a terrain profile for slightly varied angle points for the transmission line corridor.
 
 The output is the following 2D longitudinal terrain profile:
+
  <img src="output/terrain_profile.png" width="100%">
 
 
