@@ -42,6 +42,8 @@ The purpose of this study is to design a	100 km 400 kV double-circuit transmissi
 ## Simulation and Analysis
 The simulations will be performed using python (with the help of libraries like rasterio, numpy, matplotlib, shapely, and pyproj). The program will try to mimic the logic of industry tools like PLS-CADD.
 
+> DEM Dataset Source: NASA JPL (2021). <i>NASADEM Merged DEM Global 1 arc second V001</i>.  Distributed by OpenTopography. https://doi.org/10.5069/G93T9FD9. Accessed 2026-05-19
+
 ### Terrain Intake and Routing Strategy
 The Upper Karnali powerhouse sits in a deep, rugged canyon at approximately 28.53° N, 81.29° E, ground elevation of approx. 635.79 m. To reach the plains of India, the transmission line needs to drop out of the Himalayan foothills (Siwalik/Churia range) and head down toward Terai (plains) near the India border.
 
@@ -57,10 +59,6 @@ The program [scripts/terrain_loader.py](https://github.com/aa-sharma/upper_karna
 The output is the following 2D longitudinal terrain profile:
 
  <img src="output/terrain_profile.png" width="100%">
-
-
-
-> Dataset Source: NASA JPL (2021). <i>NASADEM Merged DEM Global 1 arc second V001</i>.  Distributed by OpenTopography. https://doi.org/10.5069/G93T9FD9. Accessed 2026-05-19
 
 
 
