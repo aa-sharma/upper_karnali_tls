@@ -104,7 +104,7 @@ $$S = (w_r L^2)/8H$$
 
 As weather shifts from extremes, the tension in the lines changes. The following cubic change-of-state equation is used to calculate the tension (H<sub>2<sub>) after the change:
 
-$$H_2^2 \[H_2 - (H_1 - (w_r_1^2 L^2 E A)/(24H_1^2) + a E A (T_2 - T_1)\]$$
+$$H_2^2 \[H_2 - (H_1 - (w_(r1)^2 L^2 E A)/(24H_1^2) + a E A (T_2 - T_1)\]$$
 
 or the simplified version:
 
