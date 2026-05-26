@@ -1,0 +1,8 @@
+T2M_MAX       MERRA-2 Temperature at 2 Meters Maximum (C)
+WS10M_MAX     MERRA-2 Wind Speed at 10 Meters Maximum (m/s)
+PRECTOTCORR_SUM     MERRA-2 Precipitation Corrected Sum (mm/day)
+
+T2M_MAX: June, 40.27
+T2M_MIN: Jan, -3.87
+WS10M_MAX: Feb, 8.71
+PRECTOTCORR_SUM: July, 246.59
