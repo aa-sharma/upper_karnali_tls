@@ -71,7 +71,7 @@ _Source: https://asian-power.com/news/india-nepal-partner-develop-high-capacity-
 | -------- | -------- |
 | Type | Aluminum Conductor Steel Reinforced (ACSR) MOOSE |
 | Diameter (d) | 31.77mm |
-| Total Sectional Area (A) | 597$mm^2$ |
+| Total Sectional Area (A) | 597mm<sup>2</sup> |
 
 
 * Conductor Type: Aluminum Conductor Steel Reinforced (ACSR) Moose
