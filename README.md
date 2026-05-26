@@ -101,6 +101,7 @@ The following approximation can be used to calculate the mid-span sag (S) when t
 
 $$S = (w_r L^2)/8H$$
 
+where _L_ is the span length, and _H_ is the horizontal tension.
 
 As weather shifts from extremes, the tension in the lines changes. The following cubic change-of-state equation is used to calculate the tension (H<sub>2<sub>) after the change:
 
@@ -109,6 +110,12 @@ $$H_2^2 \[H_2 - (H_1 - (w_{r1}^2 L^2 E A)/(24H_1^2) + a E A (T_2 - T_1)\]$$
 or the simplified version:
 
 $$(w_{r2}^2 L^2 E A)/24$$
+
+
+In the simulation, we will check a few key limits:
+1. **Maximum Tension Limit**: Under the worst-case scenario (max wind, min temperature, max precipitation), the maximum computed tension should not exceed approx. 40% of the conductor UTS
+2. **Everday Stress (EDS) Limit**: At average ambient temperature with no wind, the tension should stay around 20-25% of UTS to prevent [Aeolian vibrations] (https://en.wikipedia.org/wiki/Aeroelasticity#Flutter) i.e. "high-frequency, low-amplitude oscillation caused by steady, low-speed winds blowing across an elongated cylindrical structure, such as an overhead power line"
+3. **Ground Clearance**: Under maximum sag conditions, the calculated catenary curve must clear the terrain profile by at least 8-8.5m for a 400kV class line, per international and Indian grid regulation.
 
 ### Automated Tower Spotting
 ### Verification
