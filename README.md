@@ -75,8 +75,9 @@ _Source: https://asian-power.com/news/india-nepal-partner-develop-high-capacity-
 | Unit Weight (_w<sub>c<sub>_) | 1.998 kg/m (i.e. approx. 19.6N/m|
 | Ultimate Tensile Strenght (UTS) | 159.60kN |
 | Modulus of Elasticity (_E_) | 69GPa (69 x 10<sup>9<sup> N /  m<sup>2<sup> |
-| Thermal Expansion Coefficient (_\(\alpha \)_) | 19.3 x 10<sup>-6<sup>  / C|
+| Thermal Expansion Coefficient (_a_) | 19.3 x 10<sup>-6<sup>  / C|
 | Configuration | 4 individual conductors grouped together into a quad formation per phase |
+| Standard Bundle Spacing | 450mm square configuration |
 
 
 ### Automated Tower Spotting
