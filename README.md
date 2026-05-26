@@ -79,6 +79,8 @@ _Source: https://asian-power.com/news/india-nepal-partner-develop-high-capacity-
 | Configuration | 4 individual conductors grouped together into a quad formation per phase |
 | Standard Bundle Spacing | 450mm square configuration |
 
+Temperature, wind speed, and precipitation data is used from [NASA Prediction Of Worldwide Energy Resources (POWER)](https://power.larc.nasa.gov/data-access-viewer/) considering a 40 year average to compute conductor temperature, wind loading, and ice loading respectively.
+
 
 ### Automated Tower Spotting
 ### Verification
