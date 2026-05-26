@@ -97,7 +97,7 @@ Thus, the total resultant force per meter experienced by the conductor is given 
 $$w_r = \sqrt{w_v^2 + w_h^2}$$
 
 
-For cases where the sag is a small fraction of the overall transmission line span length, the following approximation can be used to calculate the mid-span sag (S):
+The following approximation can be used to calculate the mid-span sag (S) when the span length is much larger than the sag:
 
 $$S = (w_r L^2)/8H$$
 
