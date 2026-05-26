@@ -81,6 +81,14 @@ _Source: https://asian-power.com/news/india-nepal-partner-develop-high-capacity-
 
 Temperature and solar irradiance, wind speed, and precipitation data is used from [NASA Prediction Of Worldwide Energy Resources (POWER)](https://power.larc.nasa.gov/data-access-viewer/) considering a 40 year average to compute conductor temperature, wind loading, and ice loading respectively. Data available in [data/](https://github.com/aa-sharma/upper_karnali_tls/tree/main/data) folder
 
+#### Sag-Tension Mathematical Modelling
+The conductor will experience horizontal (wind) and vertical (gravitational / ice) loads simultaneously described by the following equations:
+
+Veritcal Load:
+$w_v = w_c + w_i$
+
+
+
 
 ### Automated Tower Spotting
 ### Verification
