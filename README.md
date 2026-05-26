@@ -111,8 +111,7 @@ As weather shifts from extremes, the tension in the lines changes. The following
 
 $$H_2^2 \[H_2 - (H_1 - (w_{r1}^2 L^2 E A)/(24H_1^2) + a E A (T_2 - T_1)\] = (w_{r2}^2 L^2 E A)/24$$
 
-where $w_{r2}^2$ is the total force experienced by the conductor, $L$ is the span length of the transmission line, $E$ is the modulus of elasticity of the conductor, and $A$ is the cross-sectional area.
-
+where $L$ is the span length of the transmission line, $E$ is the modulus of elasticity of the conductor, and $A$ is the cross-sectional area, $H_1$, $T_1$, and $w_{r1}$ are the tension, temperature, and resultant load on the initial state, and $H_2$, $T_2$, and $w_{r2}$ are the tension, temperature, and resultant load on the final state.
 
 In the simulation, we will check a few key limits:
 1. **Maximum Tension Limit**: Under the worst-case scenario (max wind, min temperature, max precipitation), the maximum computed tension should not exceed approx. 40% of the conductor UTS
