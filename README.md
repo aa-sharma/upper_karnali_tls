@@ -72,10 +72,10 @@ _Source: https://asian-power.com/news/india-nepal-partner-develop-high-capacity-
 | Type | Aluminum Conductor Steel Reinforced (ACSR) MOOSE |
 | Diameter (_d_) | 31.77mm |
 | Total Sectional Area (_A_) | 597mm<sup>2</sup> |
-| Unit Weight (_w<sub>c<sub>_) | 1.998 kg/m (i.e. approx. 19.6N/m|
-| Ultimate Tensile Strenght (UTS) | 159.60kN |
-| Modulus of Elasticity (_E_) | 69GPa (69 x 10<sup>9<sup> N /  m<sup>2<sup> |
-| Thermal Expansion Coefficient (_a_) | 19.3 x 10<sup>-6<sup>  / C|
+| Unit Weight (_w<sub>c<sub>_) | 1.998 kg/m (i.e. approx. 19.6 N/m|
+| Ultimate Tensile Strenght (UTS) | 159.60 kN |
+| Modulus of Elasticity (_E_) | 69GPa (69 x _10<sup>9<sup>_ N / _m<sup>2<sup>_ |
+| Thermal Expansion Coefficient (_a_) | 19.3 x _10<sup>-6<sup>_  / C|
 | Configuration | 4 individual conductors grouped together into a quad formation per phase |
 | Standard Bundle Spacing | 450mm square configuration |
 
