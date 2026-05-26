@@ -92,7 +92,7 @@ Horizontal Load:
 
 $$w_h = q x (d + 2t_i)$$
 
-Thus, the total resultant force per meter experienced by the conductor is given by (N/m):
+Thus, the total resultant force per meter experienced by the conductor is given by:
 
 $$w_r = \sqrt{w_v^2 + w_h^2}$$
 
