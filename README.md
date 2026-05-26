@@ -92,7 +92,7 @@ Horizontal Load:
 
 $$w_h = q \times (d + 2t_i)$$
 
-Where _q_ is the wind pressuse in N/m<sup>2<sup>, computed from wind speed (_V_):
+Where _q_ is the wind pressuse in $N/m^2$, computed from wind speed (_V_):
 
 $$q = 0.6 \times V^2$$
 
