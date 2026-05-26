@@ -107,7 +107,7 @@ $$S = (w_r L^2)/8H$$
 
 where _L_ is the span length, and _H_ is the horizontal tension.
 
-As weather shifts from extremes, the tension in the lines changes. The following cubic change-of-state equation is used to calculate the tension (H<sub>2<sub>) after the change:
+As weather shifts from extremes, the tension in the lines changes. The following cubic change-of-state equation is used to calculate the tension $H_2$ after the change:
 
 $$H_2^2 \[H_2 - (H_1 - (w_{r1}^2 L^2 E A)/(24H_1^2) + a E A (T_2 - T_1)\]$$
 
