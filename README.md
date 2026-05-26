@@ -71,7 +71,7 @@ _Source: https://asian-power.com/news/india-nepal-partner-develop-high-capacity-
 | -------- | -------- |
 | Type | Aluminum Conductor Steel Reinforced (ACSR) MOOSE |
 | Diameter (_d_) | 31.77mm |
-| Total Sectional Area (_A_) | 597mm<sup>2</sup> |
+| Cross Sectional Area (_A_) | 597mm<sup>2</sup> |
 | Unit Weight (_w<sub>c<sub>_) | 1.998 kg/m (i.e. approx. 19.6 N/m|
 | Ultimate Tensile Strenght (UTS) | 159.60 kN |
 | Modulus of Elasticity (_E_) | 69GPa (69 x _10<sup>9<sup>_ N / _m<sup>2<sup>_ )|
@@ -92,7 +92,11 @@ Horizontal Load:
 
 $$w_h = q \times (d + 2t_i)$$
 
-Thus, the total resultant force per meter experienced by the conductor is given by:
+Where _q_ is the wind pressuse in N/m<sup>2<sup>, computed from wind speed (_V_):
+
+$$q = 0.6 \times V^2$$
+
+Thus, the total resultant force per meter (_w<sub>r<sub>_) experienced by the conductor is given by:
 
 $$w_r = \sqrt{w_v^2 + w_h^2}$$
 
@@ -107,9 +111,11 @@ As weather shifts from extremes, the tension in the lines changes. The following
 
 $$H_2^2 \[H_2 - (H_1 - (w_{r1}^2 L^2 E A)/(24H_1^2) + a E A (T_2 - T_1)\]$$
 
-or the simplified version:
+or the simplified version of the change-of-state equations:
 
 $$(w_{r2}^2 L^2 E A)/24$$
+
+where $w_{r2}^2$ is the total force experienced by the conductor, $L$ is the span length of the transmission line, $E$ is the modulus of elasticity of the conductor, and $A$ is the cross-sectional area.
 
 
 In the simulation, we will check a few key limits:
