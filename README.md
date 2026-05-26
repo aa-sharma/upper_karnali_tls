@@ -85,13 +85,13 @@ Temperature and solar irradiance, wind speed, and precipitation data is used fro
 The conductor will experience horizontal (wind) and vertical (gravitational / ice) loads simultaneously described by the following equations:
 
 Veritcal Load:
-$w_v = w_c + w_i$
+$$w_v = w_c + w_i$$
 
 Horizontal Load:
-$w_h = q x (d + 2t_i)$
+$$w_h = q x (d + 2t_i)$$
 
 Total Resultant Force per meter (N/m)
-$w_r = sqrt(w_v^2 + w_h^2)$
+$$w_r = \sqrt{w_v^2 + w_h^2}$$
 
 
 
