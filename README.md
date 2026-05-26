@@ -109,11 +109,7 @@ where _L_ is the span length, and _H_ is the horizontal tension.
 
 As weather shifts from extremes, the tension in the lines changes. The following cubic change-of-state equation is used to calculate the tension $H_2$ after the change:
 
-$$H_2^2 \[H_2 - (H_1 - (w_{r1}^2 L^2 E A)/(24H_1^2) + a E A (T_2 - T_1)\]$$
-
-or the simplified version of the change-of-state equation:
-
-$$(w_{r2}^2 L^2 E A)/24$$
+$$H_2^2 \[H_2 - (H_1 - (w_{r1}^2 L^2 E A)/(24H_1^2) + a E A (T_2 - T_1)\] = (w_{r2}^2 L^2 E A)/24$$
 
 where $w_{r2}^2$ is the total force experienced by the conductor, $L$ is the span length of the transmission line, $E$ is the modulus of elasticity of the conductor, and $A$ is the cross-sectional area.
 
