@@ -119,6 +119,8 @@ In the simulation, we will check a few key limits:
 2. **Everday Stress (EDS) Limit**: At average ambient temperature with no wind, the tension should stay around 20-25% of UTS to prevent [Aeolian vibrations](https://en.wikipedia.org/wiki/Stockbridge_damper) i.e. "high-frequency, low-amplitude oscillation caused by steady, low-speed winds blowing across an elongated cylindrical structure, such as an overhead power line"
 3. **Ground Clearance**: Under maximum sag conditions, the calculated catenary curve must clear the terrain profile by at least 8-8.5m for a 400kV class line, per international and Indian grid regulation.
 
+#### Simulation Result
+
 ### Automated Tower Spotting
 ### Verification
 
