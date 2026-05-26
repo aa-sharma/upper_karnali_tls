@@ -66,6 +66,14 @@ The output is the following 2D longitudinal terrain profile:
 The project is specified to use 400 kV Double Circuit, Aluminum Conductor Steel Reinforced (ACSR) Quad Moose conductor transmission lines
 _Source: https://asian-power.com/news/india-nepal-partner-develop-high-capacity-cross-border-power-transmission_
 #### Conductor Parameters
+
+| Parameter | Standard Value |
+| -------- | -------- |
+| Type | Aluminum Conductor Steel Reinforced (ACSR) MOOSE |
+| Diameter (d) | 31.77mm |
+| Total Sectional Area (A) | 597$mm^2$ |
+
+
 * Conductor Type: Aluminum Conductor Steel Reinforced (ACSR) Moose
 * Area: 500mm<sup>2</sup>
 * Diameter: approx. 31.77mm/conductor
