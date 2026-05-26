@@ -87,6 +87,12 @@ The conductor will experience horizontal (wind) and vertical (gravitational / ic
 Veritcal Load:
 $w_v = w_c + w_i$
 
+Horizontal Load:
+$w_h = q x (d + 2t_i)$
+
+Total Resultant Force per meter (N/m)
+$w_r = sqrt(w_v^2 + w_h^2)$
+
 
 
 
