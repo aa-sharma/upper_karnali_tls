@@ -92,10 +92,14 @@ Horizontal Load:
 
 $$w_h = q x (d + 2t_i)$$
 
-Total Resultant Force per meter (N/m):
+Thus, the total resultant force per meter experienced by the conductor is given by (N/m):
 
 $$w_r = \sqrt{w_v^2 + w_h^2}$$
 
+
+For cases where the sag is a small fraction of the overall transmission line span length, the following approximation can be used to calculate the mid-span sag (S):
+
+$$S = (w_r L^2)/8H$$
 
 
 
