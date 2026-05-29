@@ -39,6 +39,9 @@ _Source: https://web.archive.org/web/20221023231005/https://www.nsenergybusiness
 ## Purpose
 The purpose of this study is to design a	100 km 400 kV double-circuit transmission line (up to the Nepal-India border) connecting the power generated at the Upper Karnali hydropower site to the Indian grid.
 
+[Key Design Factors for Extra High Voltage Transmission Systems - Stantec Article](https://www.stantec.com/en/ideas/content/blog/2025/11-key-design-factors-for-extra-high-voltage-transmission-systems
+)
+
 ## Simulation and Analysis
 The simulations will be performed using python (with the help of libraries like rasterio, numpy, matplotlib, shapely, and pyproj). The program will try to mimic the logic of industry tools like PLS-CADD.
 
