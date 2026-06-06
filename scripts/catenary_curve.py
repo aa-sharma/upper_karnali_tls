@@ -145,7 +145,7 @@ def plot_profiles(y_eds, y_cold, y_hot):
     x = X
     fig, ax = plt.subplots(figsize=(10, 6))
     ax.plot(x, y_eds, 'b-', label=f'Everyday Stress (EDS) (32°C, No Wind), Sag = {-min(y_eds):.2f}m')
-    ax.plot(x, y_cold, 'g--', label=f'Min Temp. & Max. Wind Speed ({T_MIN}°C, {WS_MAX}m/s), Sag = {-min(y_cold):.2f}m')
+    ax.plot(x, y_cold, 'g--', label=f'Min Temp. Ice Loading & Max. Wind Speed ({T_MIN}°C, {WS_MAX}m/s), Sag = {-min(y_cold):.2f}m')
     ax.plot(x, y_hot, 'r-', label=f'Max Temp. Sag (85°C, No Wind), Sag = {-min(y_hot):.2f}m')
     # plt.axvline(x=0, color='black', linestyle='-')
     # plt.axvline(x=400, color='black', linestyle='-')
