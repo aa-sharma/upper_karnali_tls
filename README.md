@@ -135,7 +135,7 @@ In the simulation, we will check a few key limits:
 | Governing Storm State | $-3.27^o C$ + Ice + Wind| Max. sag derived from NASA POWER 44 year historical extreme |
 
 ##### Final Sag Tension Output Matrix
-| Loading Condition | Horizontal Tension (per sub-conductor) | Resultant Unit Weight ($w_r$) | Final Veritcal Sag |
+| Loading Condition | Horizontal Tension (per sub-conductor) | Resultant Unit Weight ($w_r$) | Final Vertical Sag |
 | -------- | -------- |-------- |--------|
 | Everyday Stress (EDS) | 39.90kN | 19.60 N/m | 9.82m |
 | Max. Thermal Limit ($85^o C$) | 32.34kN | 19.60 N/m | 14.41m |
