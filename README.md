@@ -127,7 +127,7 @@ In the simulation, we will check a few key limits:
 
 Design Criteria Summary
 | Parameter | Design Value Used | Rationale |
-| -------- | -------- |
+| -------- | -------- |-------- |
 | Conductor Configuration | Quad ACSR Moose (400kV) | Chosen for power capacity and corona suppression |
 | Ruling Span ($L_R$) | 400m | Baseline benchmark for terrain profiling |
 | Everyday Stress (EDS) | 25% of UTS at $32^o C$ | Safe limit to prevent Aeolian vibration |
