@@ -30,13 +30,14 @@ L = 400                 # m
 T1 = 32                 # C
 WIND_SPEED_1 = 0        # m/s
 ICE_1 = 0               # m
-EDS_H = 20              # tension % of limit
+EDS_H = 50              # tension % of limit
 
 X = np.linspace(0, L, 200)      # scale for plot
 
 # EXTREMES
 T_MIN = -3.87                   # C
 T_MAX = 40.27                   # C
+T_COND_MAX = 85                 # Max operating condition for conductor (85 C)
 WS_MAX = 8.71                   # m/s
 PRECIT_MAX = 246.59             # mm
 
@@ -122,7 +123,7 @@ class CatenaryCurve:
         H2 = real_positive_roots[0]
         diff = self.h1 - H2
         LOGGER.info(f"Final condition tension (H2) = {H2}")
-        LOGGER.info(f"Tension dropped by {diff} N")
+        LOGGER.info(f"Tension changed by {diff} N")
         return H2
 
     @staticmethod
@@ -139,19 +140,25 @@ class CatenaryCurve:
 
 
 
-def plot_profiles(y_eds, y_cold):
+def plot_profiles(y_eds, y_cold, y_hot):
+    """Generate plot"""
     x = X
     fig, ax = plt.subplots(figsize=(10, 6))
-    ax.plot(x, y_eds, 'b-', label=f'Everyday Stringing (32°C, No Wind), Sag = {-min(y_eds):.2f}m')
-    ax.plot(x, y_cold, 'g--', label=f'Min Temp.  (15°C, 45m/s), Vert Sag = {-min(y_cold):.2f}m')
-    # ax.plot(x, y_thermal, 'r-', label=f'Max Thermal Sag (85°C, No Wind), Sag = {-min(y_thermal):.2f}m')
-    ax.set_title('400m Transmission Line Span Conductor Profiles', fontsize=12, fontweight='bold')
+    ax.plot(x, y_eds, 'b-', label=f'Everyday Stress (EDS) (32°C, No Wind), Sag = {-min(y_eds):.2f}m')
+    ax.plot(x, y_cold, 'g--', label=f'Min Temp. & Max. Wind Speed ({T_MIN}°C, {WS_MAX}m/s), Sag = {-min(y_cold):.2f}m')
+    ax.plot(x, y_hot, 'r-', label=f'Max Temp. Sag (85°C, No Wind), Sag = {-min(y_hot):.2f}m')
+    # plt.axvline(x=0, color='black', linestyle='-')
+    # plt.axvline(x=400, color='black', linestyle='-')
+    plt.vlines(x=0, ymin=-25, ymax=0, color='black', linestyle='-') 
+    plt.vlines(x=400, ymin=-25, ymax=0, color='black', linestyle='-') 
+    ax.set_title('400m Transmission Line Span Catenary Curve Under Varying Conditions (ACSR QUAD Moose)', fontsize=12, fontweight='bold')
     ax.set_xlabel('Span Distance (meters)')
     ax.set_ylabel('Vertical Drop from Attachment Point (meters)')
     ax.grid(True, linestyle=':', alpha=0.6)
-    ax.legend(loc='lower center')
+    ax.legend(loc='lower right')
     plt.tight_layout()
-    plt.savefig('conductor_sag_profiles.png', dpi=300)
+    # plt.show()
+    plt.savefig('../output/conductor_sag_profiles.png', dpi=500)
 
 
 
@@ -160,11 +167,13 @@ def estimate_radial_ice(precipitation_mm, wind_speed_ms, temperature_c):
     Estimates radial ice thickness using the Jones empirical model.
     Assumes standard glaze ice conditions.
     """
+    LOGGER.info(f"Estimating radial ice thickness using the Jones empirical model based on precipitation, windspeed, and temperature.")
     rho_ice = 900.0         # Glaze ice density in kg/m³
     V_t = 5.0               # Average terminal velocity of freezing raindrops (m/s)
     if temperature_c <= 0.5 and precipitation_mm > 0:
         P_mass = precipitation_mm          
         dr = (P_mass / (np.pi * rho_ice)) * np.sqrt(1 + (wind_speed_ms / V_t)**2)
+        LOGGER.info(f"Estimated radial ice thickness: {dr} m")
         return dr
     return 0.0
 
@@ -172,27 +181,18 @@ def estimate_radial_ice(precipitation_mm, wind_speed_ms, temperature_c):
 
 if __name__ == "__main__":
     # CASE 1: Coldest, windiest conditions
-    LOGGER.info("======= CASE 1: Coldest, windiest conditions =======")
+    LOGGER.info("======= CASE 1: Coldest, wettest, windiest conditions =======")
     ice2 = estimate_radial_ice(precipitation_mm=29.85, wind_speed_ms=WS_MAX, temperature_c=T_MIN)      # From NASA POWER Data
     cold_cc = CatenaryCurve(t2=T_MIN, wind_speed2=WS_MAX, ice2=ice2)
     cold_tension = cold_cc.solve_tension_polynomial()
-    cold_catenary_profile = cold_cc.catenary_profile(H=cold_cc.h1, wr=cold_cc.wr2)
+    cold_catenary_profile = cold_cc.catenary_profile(H=cold_tension, wr=cold_cc.wr2)
+
+    LOGGER.info("======= CASE 2: Hottest conditions =======")
+    ice2 = estimate_radial_ice(precipitation_mm=128.69, wind_speed_ms=7.24, temperature_c=T_COND_MAX)      # From NASA POWER Data
+    hot_cc = CatenaryCurve(t2=85, wind_speed2=0, ice2=ice2)
+    hot_tension = hot_cc.solve_tension_polynomial()
+    hot_catenary_profile = hot_cc.catenary_profile(H=hot_tension, wr=hot_cc.wr2)
+
     baseline_catenary_profile = cold_cc.baseline_catenary_profile()
-    plot_profiles(y_eds=baseline_catenary_profile, y_cold=cold_catenary_profile)
-
-
-
-
-    # # # CASE 2: Hottest condition (max. operating temp. of conductor)
-    # # hot_cc = CatenaryCurve(t2=85, wind_speed2=0, ice2=0)
-    # # hot_tension = hot_cc.solve_tension_polynomial()
-
-    # # # CASE 3: Max. wind swing condition
-    # # wind_cc = CatenaryCurve(t2=32, wind_speed2=WS_MAX, ice2=0)
-    # # wind_tension = wind_cc.solve_tension_polynomial()
-
-    # # Plots
-    # y_eds = catenary_profile(x, H1, wr1, w_c)
-    # y_wind = catenary_profile(x, H_wind, wr_wind, w_c)
-    # y_thermal = catenary_profile(x, H_thermal, w_c, w_c)
+    plot_profiles(y_eds=baseline_catenary_profile, y_cold=cold_catenary_profile, y_hot=hot_catenary_profile)
 
