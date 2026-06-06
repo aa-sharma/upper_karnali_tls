@@ -125,7 +125,7 @@ In the simulation, we will check a few key limits:
 #### Simulation Result
  <img src="output/conductor_sag_profiles.png" width="100%">
 
-Design Criteria Summary
+##### Design Criteria Summary
 | Parameter | Design Value Used | Rationale |
 | -------- | -------- |-------- |
 | Conductor Configuration | Quad ACSR Moose (400kV) | Chosen for power capacity and corona suppression |
@@ -134,6 +134,12 @@ Design Criteria Summary
 | Max. Thermal Boundary | $85^o C$ (Bare, no wind)| Max. continuous electrical loading state |
 | Governing Storm State | $-3.27^o C$ + Ice + Wind| Max. sag derived from NASA POWER 44 year historical extreme |
 
+##### Final Sag Tension Output Matrix
+| Loading Condition | Horizontal Tension (per sub-conductor) | Resultant Unit Weight ($w_r$) | Final Veritcal Sag |
+| -------- | -------- |-------- |--------|
+| Everyday Stress (EDS) | 39.90kN | 19.60 N/m | 9.82m |
+| Max. Thermal Limit ($85^o C$) | 32.34kN | 19.60 N/m | 14.41m |
+| Everyday Stress (EDS) |  |  | 15.47m |
 
 
 ### Automated Tower Spotting
