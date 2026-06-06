@@ -123,6 +123,8 @@ In the simulation, we will check a few key limits:
 3. **Ground Clearance**: Under maximum sag conditions, the calculated catenary curve must clear the terrain profile by at least 8-8.5m for a 400kV class line, per international and Indian grid regulation.
 
 #### Simulation Result
+ <img src="output/conductor_sag_profiles.png" width="100%">
+
 
 ### Automated Tower Spotting
 ### Verification
