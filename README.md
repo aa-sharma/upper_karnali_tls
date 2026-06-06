@@ -139,7 +139,7 @@ In the simulation, we will check a few key limits:
 | -------- | -------- |-------- |--------|
 | Everyday Stress (EDS) | 39.90kN | 19.60 N/m | 9.82m |
 | Max. Thermal Limit ($85^o C$) | 32.34kN | 19.60 N/m | 14.41m |
-| Everyday Stress (EDS) |  |  | 15.47m |
+| Governing Storm State |  |  | 15.47m |
 
 
 ### Automated Tower Spotting
